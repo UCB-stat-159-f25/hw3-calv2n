@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "ligotools"
 authors = [
-  { name="Calvin", email="calvinc@berkeley.edu" },
+  { name="Ligo Scientific Collaboration (LSC) and Calvin", email="calvinc@berkeley.edu" },
 ]
 description = "A Python library for ligotools"
 readme = "README.md"
