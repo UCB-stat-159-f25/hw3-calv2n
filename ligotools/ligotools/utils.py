@@ -186,3 +186,5 @@ def plot_matched_filter_analysis(
             plt.legend(loc='upper left')
             plt.title(det+' ASD and template around event')
             plt.savefig('figures/' + eventname + "_" + det + "_matchfreq." + plottype)
+
+    return template_match
