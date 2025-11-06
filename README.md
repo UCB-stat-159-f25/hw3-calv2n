@@ -6,7 +6,7 @@ This repo is an exploration of new tools for reproducability in Data Science usi
 
 ### MyST Link:
 
-$[https://ucb-stat-159-f25.github.io/hw3-calv2n/](https://ucb-stat-159-f25.github.io/hw3-calv2n/)
+[https://ucb-stat-159-f25.github.io/hw3-calv2n/](https://ucb-stat-159-f25.github.io/hw3-calv2n/)
 
 ### Binder Link:
 
