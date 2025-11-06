@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools >= 70", "numpy"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ligotools"
+authors = [
+  { name="Calvin", email="calvinc@berkeley.edu" },
+]
+description = "A Python library for ligotools"
+readme = "README.md"
+
+requires-python = ">=3.9"
+dependencies = [
+    "numpy==2.0",
+    "scipy==1.13",
+    "h5py==3.12",
+    "matplotlib==3.9",
+    "ipykernel==6.29"
+]
+
+keywords = ["ligo", "gravitational-waves", "astronomy", "physics"]
+dynamic = ["version"]
+
+[tool.setuptools]
+packages = ["ligotools"]
+
+[tool.setuptools.dynamic]
+version = {attr = "ligotools.__version__"}
+
