@@ -1,0 +1,3 @@
+I asked chatgpt how to rename an environment in conda in the terminal. It showed me that I can use this global
+variable ENV_NAME
+conda env update -n $(ENV_NAME) -f environment.yml;
