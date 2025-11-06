@@ -1,4 +1,7 @@
 data/
-
+audio/
+figures/
+*.egg-info/
+ligotools/build
 # MyST build outputs
 _build

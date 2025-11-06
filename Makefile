@@ -1,4 +1,4 @@
-ENV_NAME = ligo-analysis
+ENV_NAME = ligo-analysis1
 PYTHON = python
 MYS = myst
 
